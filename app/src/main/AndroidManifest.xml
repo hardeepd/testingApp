@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.co.hd_tech.android.testingapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RootActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.android.testing.androidjunitrunnersample.CalculatorActivity" />
+        <activity android:name="com.example.android.testing.espresso.BasicSample.MainActivity" />
+        <activity android:name="com.example.android.testing.espresso.BasicSample.ShowTextActivity" />
+        <activity android:name="com.example.android.testing.espresso.CustomMatcherSample.MainActivity" />
+        <activity android:name="com.example.android.testing.espresso.DataAdapterSample.LongListActivity" />
+        <activity android:name="com.example.android.testing.espresso.IdlingResourceSample.MainActivity" />
+        <activity android:name="com.example.android.testing.espresso.intents.AdvancedSample.ImageViewerActivity" />
+        <activity android:name="com.example.android.testing.espresso.BasicSample.DialerActivity" />
+        <activity android:name="com.example.android.testing.espresso.BasicSample.ContactsActivity" />
+        <activity android:name="com.example.android.testing.espresso.MultiWindowSample.SuggestActivity" />
+        <activity android:name="com.example.android.testing.espresso.RecyclerViewSample.MainActivity" />
+        <activity android:name="com.example.android.testing.espresso.web.BasicSample.WebViewActivity" />
+        <activity android:name="com.example.android.testing.uiautomator.BasicSample.MainActivity" />
+        <activity android:name="com.example.android.testing.uiautomator.BasicSample.ShowTextActivity" />
+
+        <service android:name="com.example.android.testing.ServiceTestRuleSample.LocalService" />
+    </application>
+
+</manifest>

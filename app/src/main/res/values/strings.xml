@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">TestingApp</string>
+
+    <string name="type_operand_one_hint">Type Operand 1</string>
+    <string name="type_operant_two_hint">Type Operand 2</string>
+    <string name="add_operation_text">Add</string>
+    <string name="sub_operation_text">Sub</string>
+    <string name="div_operation_text">Div</string>
+    <string name="mul_operation_text">Mul</string>
+    <string name="computationError">Error</string>
+
+    <string name="hello_world">Hello Espresso!</string>
+    <string name="open_activity_and_change_text">Open activity and change text</string>
+
+    <string name="instructions">See MainActivity.java for valid options or type something ending in \"coffee\".</string>
+    <string name="hint">How do you like your coffee?</string>
+    <string name="validate">Validate</string>
+    <string name="good_choice">Good choice!</string>
+    <string name="bad_choice">Bad choice!</string>
+
+    <string name="row_label">Clicked on row</string>
+
+    <string name="change_text">Change text taking some time</string>
+    <string name="type_something">type something…</string>
+    <string name="waiting_msg">Waiting for message…</string>
+
+    <string name="button_open_camera">Take photo</string>
+
+    <string name="type_a_phone_number">Please enter a number…</string>
+    <string name="button_dial_number">Call Number</string>
+    <string name="button_pick_contact">Pick Number</string>
+    <string name="contacts_activity_placeholder">This a placeholder Activity for a contacts screen.
+        This activity is never opened and does not contain any real contact data for
+        keeping this sample simple and focused.
+    </string>
+    <string name="warning_call_phone_permission">This app requires \'call phone\' permission to run</string>
+
+    <string name="pick_water">Pick body of water</string>
+    <string-array name="bodies_of_water">
+        <item>Pacific Ocean</item>
+        <item>Atlantic Ocean</item>
+        <item>Indian Ocean</item>
+        <item>Southern Ocean</item>
+        <item>Arctic Ocean</item>
+        <item>Mediterranean Sea</item>
+        <item>Caribbean Sea</item>
+        <item>South China Sea</item>
+        <item>Bering Sea</item>
+        <item>Gulf of Mexico</item>
+        <item>Okhotsk Sea</item>
+        <item>East China Sea</item>
+        <item>Hudson Bay</item>
+        <item>Japan Sea</item>
+        <item>Andaman Sea</item>
+        <item>North Sea</item>
+        <item>Red Sea</item>
+        <item>Baltic Sea</item>
+    </string-array>
+
+    <string name="element_text">Element</string>
+    <string name="item_element_text">This is element #</string>
+    <string name="middle">This is the middle!</string>
+
+</resources>
