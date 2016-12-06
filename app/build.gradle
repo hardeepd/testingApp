@@ -1,4 +1,40 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.stanfy.spoon:spoon-gradle-plugin:1.2.2'
+    }
+}
+
 apply plugin: 'com.android.application'
+apply plugin: 'spoon'
+
+spoon {
+    // for debug output
+    debug = true
+
+    // To run a single test class
+//    className = 'fully.qualified.TestCase'
+
+    // To run a single method in TestCase
+//    methodName = 'testMyApp'
+
+    // To execute the tests device by device */
+    sequential = false
+
+    // To grant permissions to Android M >= devices */
+    grantAllPermissions = true
+
+    if (project.hasProperty('spoonInstrumentationArgs')) {
+        def list = []
+        project.properties['spoonInstrumentationArgs'].split(',').each {
+            list << it
+        }
+        instrumentationArgs = list
+    }
+}
 
 android {
     compileSdkVersion 25
