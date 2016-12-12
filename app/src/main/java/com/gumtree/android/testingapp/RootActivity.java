@@ -1,7 +1,8 @@
-package uk.co.hd_tech.android.testingapp;
+package com.gumtree.android.testingapp;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
 
 public class RootActivity extends AppCompatActivity {
 

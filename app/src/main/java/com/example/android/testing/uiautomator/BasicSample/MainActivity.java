@@ -23,7 +23,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import uk.co.hd_tech.android.testingapp.R;
+import com.gumtree.android.testingapp.R;
+
 
 /**
  * An {@link Activity} that gets a text string from the user and displays it back when the user

@@ -21,10 +21,11 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.gumtree.android.testingapp.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import uk.co.hd_tech.android.testingapp.R;
 
 /**
  * Shows a list using a RecyclerView.

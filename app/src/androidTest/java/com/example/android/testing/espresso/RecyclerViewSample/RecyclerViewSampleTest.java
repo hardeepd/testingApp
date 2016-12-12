@@ -22,6 +22,7 @@ import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 
 import com.example.android.testing.espresso.contrib.RecyclerViewActions;
+import com.gumtree.android.testingapp.R;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
@@ -29,8 +30,6 @@ import org.hamcrest.TypeSafeMatcher;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
-import uk.co.hd_tech.android.testingapp.R;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;

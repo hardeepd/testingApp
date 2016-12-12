@@ -25,7 +25,7 @@ import android.text.TextUtils;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import uk.co.hd_tech.android.testingapp.R;
+import com.gumtree.android.testingapp.R;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

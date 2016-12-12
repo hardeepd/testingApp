@@ -21,7 +21,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.VisibleForTesting;
 
-import uk.co.hd_tech.android.testingapp.R;
+import com.gumtree.android.testingapp.R;
+
 
 /**
  * This a placeholder Activity for a contacts screen. This activity is never opened and does not

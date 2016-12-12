@@ -25,7 +25,8 @@ import android.support.annotation.VisibleForTesting;
 import android.view.View;
 import android.widget.ImageView;
 
-import uk.co.hd_tech.android.testingapp.R;
+import com.gumtree.android.testingapp.R;
+
 
 /**
  * Captures an image and displays a thumbnail of the result.

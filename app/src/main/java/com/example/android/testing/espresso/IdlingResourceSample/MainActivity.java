@@ -27,8 +27,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.android.testing.espresso.IdlingResourceSample.IdlingResource.SimpleIdlingResource;
+import com.gumtree.android.testingapp.R;
 
-import uk.co.hd_tech.android.testingapp.R;
 
 /**
  * Gets a text String from the user and displays it back after a while.
@@ -43,7 +43,8 @@ public class MainActivity extends Activity implements View.OnClickListener,
     private EditText mEditText;
 
     // The Idling Resource which will be null in production.
-    @Nullable private SimpleIdlingResource mIdlingResource;
+    @Nullable
+    private SimpleIdlingResource mIdlingResource;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

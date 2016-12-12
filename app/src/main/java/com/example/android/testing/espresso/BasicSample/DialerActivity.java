@@ -27,13 +27,14 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import uk.co.hd_tech.android.testingapp.R;
+import com.gumtree.android.testingapp.R;
+
 
 /**
  * Simple Dialer Activity which shows an {@link EditText} field to enter a phone number. Upon
  * pressing the call button the number entered in the input field is send to the native Android
  * Dialer app via {@link Intent#ACTION_CALL}.
- *
+ * <p>
  * <p>
  * Furthermore this Activity contains a pick number button to starts dummy contacts activity to
  * demonstrate Intent stubbing.
@@ -53,7 +54,7 @@ public class DialerActivity extends Activity {
 
     public void onCall(View view) {
         boolean hasCallPhonePermission = ContextCompat.checkSelfPermission(this,
-            Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED;
+                Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED;
 
         if (hasCallPhonePermission)
             startActivity(createCallIntentFromNumber());

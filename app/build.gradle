@@ -40,7 +40,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion rootProject.buildToolsVersion
     defaultConfig {
-        applicationId "uk.co.hd_tech.android.testingapp"
+        applicationId "com.gumtree.android.testingapp"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1

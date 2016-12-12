@@ -20,7 +20,8 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 
-import uk.co.hd_tech.android.testingapp.R;
+import com.gumtree.android.testingapp.R;
+
 
 /**
  * An {@link Activity} that shows an editable text and gives suggestions to the user.

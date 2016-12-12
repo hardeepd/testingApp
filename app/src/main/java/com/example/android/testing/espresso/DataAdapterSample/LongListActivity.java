@@ -17,6 +17,7 @@
 package com.example.android.testing.espresso.DataAdapterSample;
 
 import com.google.common.collect.Maps;
+import com.gumtree.android.testingapp.R;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -33,7 +34,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import uk.co.hd_tech.android.testingapp.R;
 
 /**
  * An activity displaying a long list with a text view and a toggle button. The last clicked row is

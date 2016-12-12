@@ -25,7 +25,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import uk.co.hd_tech.android.testingapp.R;
+import com.gumtree.android.testingapp.R;
+
 
 /**
  * {@link Activity} which contains a simple calculator. Numbers can be entered in the

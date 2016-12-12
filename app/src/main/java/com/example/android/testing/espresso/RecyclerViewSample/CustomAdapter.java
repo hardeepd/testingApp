@@ -23,9 +23,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.gumtree.android.testingapp.R;
+
 import java.util.List;
 
-import uk.co.hd_tech.android.testingapp.R;
 
 /**
  * Provides views to {@link RecyclerView} with data from a data set.

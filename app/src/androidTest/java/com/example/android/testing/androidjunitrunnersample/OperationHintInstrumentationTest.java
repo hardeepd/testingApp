@@ -16,28 +16,27 @@
 
 package com.example.android.testing.androidjunitrunnersample;
 
-import junit.framework.TestSuite;
-
-import org.junit.Test;
-import org.junit.internal.builders.AllDefaultPossibilitiesBuilder;
-
 import android.support.test.runner.AndroidJUnitRunner;
 import android.test.ActivityInstrumentationTestCase2;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import uk.co.hd_tech.android.testingapp.R;
+import com.gumtree.android.testingapp.R;
 
-import static com.example.android.testing.androidjunitrunnersample.HintMatcher.withHint;
+import junit.framework.TestSuite;
+
+import org.junit.internal.builders.AllDefaultPossibilitiesBuilder;
+
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static com.example.android.testing.androidjunitrunnersample.HintMatcher.withHint;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
 
 /**
  * JUnit3 Ui Tests for {@link CalculatorActivity} using the {@link AndroidJUnitRunner}. This class
  * uses the Junit3 syntax for tests.
- *
+ * <p>
  * <p> With the new AndroidJUnit runner you can run both JUnit3 and JUnit4 tests in a single test
  * test suite. The {@link AndroidRunnerBuilder} which extends JUnit's {@link
  * AllDefaultPossibilitiesBuilder} will create a single {@link TestSuite} from all tests and run

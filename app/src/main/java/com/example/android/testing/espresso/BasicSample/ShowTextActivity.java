@@ -23,8 +23,8 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.google.common.base.Strings;
+import com.gumtree.android.testingapp.R;
 
-import uk.co.hd_tech.android.testingapp.R;
 
 /**
  * A simple {@link Activity} that shows a message.

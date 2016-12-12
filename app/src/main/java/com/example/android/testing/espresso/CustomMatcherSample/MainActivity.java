@@ -22,10 +22,11 @@ import android.support.annotation.VisibleForTesting;
 import android.view.View;
 import android.widget.EditText;
 
+import com.gumtree.android.testingapp.R;
+
 import java.util.Arrays;
 import java.util.List;
 
-import uk.co.hd_tech.android.testingapp.R;
 
 /**
  * Asks the user for a coffee preparation and shows if it is valid.
